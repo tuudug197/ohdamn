@@ -11,4 +11,4 @@ const userSchema = new Schema({
     }
 })
 
-exports.userModel = new model("users", userSchema)
+exports.User = new model("users", userSchema)
